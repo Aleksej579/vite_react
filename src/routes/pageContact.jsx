@@ -18,7 +18,7 @@ function CountButton() {
   const [count, setCount] = useState(0)
   return (
     <section className='w-3/4 mx-auto'>
-      <h3>State</h3>
+      <h3>State default React</h3>
       <button 
         className='p-2 mx-2 border rounded text-white !bg-indigo-500 hover:!bg-indigo-800' 
         onClick={() => setCount(count + 1)}
@@ -42,8 +42,11 @@ function pageContact() {
       <Tiny />
       <Formik />
       <CountButton />
-      <RecoilBtn />
-      <Text />
+      <section className='w-3/4 mx-auto'>
+        <h3>State library Recoil</h3>
+        <RecoilBtn />
+        <Text />
+      </section>
     </div>
   )
 }

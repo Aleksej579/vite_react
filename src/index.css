@@ -21,6 +21,6 @@ section {
 }
 .formik input {
     @apply 
-        m-4 rounded h-[40px]
+        m-4 pl-2 rounded h-[40px]
         focus:outline-4 outline-offset-4 focus:outline-blue-500;
 }
