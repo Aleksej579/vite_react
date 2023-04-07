@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+    @apply text-xl font-bold tracking-wide text-center;
+}
+h3 {
+    @apply text-lg font-bold tracking-wide italic;
+}
+
+section {
+    @apply mb-10;
+}
+.formik button {
+    @apply 
+        p-2 mx-2
+        border rounded
+        text-white
+        !bg-indigo-500 hover:!bg-indigo-800;
+}
+.formik input {
+    @apply 
+        m-4 rounded h-[40px]
+        focus:outline-4 outline-offset-4 focus:outline-blue-500;
+}
