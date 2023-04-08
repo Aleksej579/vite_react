@@ -1,0 +1,7 @@
+{
+  "databaseURL": "https://Aleksej-Eremenko-s-workspace-llifqf.us-east-1.xata.sh/db/xata-test",
+  "codegen": {
+    "output": "src/xata.js",
+    "moduleType": "esm"
+  }
+}
