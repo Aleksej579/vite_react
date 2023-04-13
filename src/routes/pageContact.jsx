@@ -5,6 +5,8 @@ import Tiny from '../components/Tiny'
 import { useTranslation } from 'react-i18next';
 import RecoilBtn from '../components/RecoilBtn';
 import fontSizeState from '../state/atomBtn';
+import Props from '../components/Props'
+import Button from '../components/Button';
 
 import {
   RecoilRoot,
@@ -42,11 +44,15 @@ function pageContact() {
       <Tiny />
       <Formik />
       <CountButton />
+      <CountButton />
       <section className='w-3/4 mx-auto'>
         <h3>State library Recoil</h3>
         <RecoilBtn />
         <Text />
       </section>
+      <Props title="props-1" />
+      <Props title="props-2" />
+      <Button />
     </div>
   )
 }

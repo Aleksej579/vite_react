@@ -12,6 +12,8 @@ import {
 import Root from "./routes/root";
 import PageAbout from './routes/pageAbout'
 import PageContact from './routes/pageContact'
+import PageTest from './routes/pageTest'
+import PageRecharts from './routes/pageRecharts'
 import ErrorPage from "./routes/error-page"
 
 import {
@@ -35,6 +37,14 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <PageContact />,
+      },
+      {
+        path: "/test",
+        element: <PageTest />,
+      },
+      {
+        path: "/recharts",
+        element: <PageRecharts />,
       },
     ],
   }

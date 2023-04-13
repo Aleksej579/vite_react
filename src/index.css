@@ -24,3 +24,11 @@ section {
         m-4 pl-2 rounded h-[40px]
         focus:outline-4 outline-offset-4 focus:outline-blue-500;
 }
+
+.bar-chart {
+    background-color: #C7D9D9;
+}
+
+.bar {
+    fill: #115D8C;
+}

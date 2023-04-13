@@ -11,6 +11,8 @@ const resources = {
         "about_p": "About page",
         "contact": "Contact",
         "contact_p": "Contact page",
+        "test_p": "Test",
+        "recharts_p": "Recharts",
     }
   },
   kr: {
@@ -19,6 +21,8 @@ const resources = {
         "about_p": "정보 페이지",
         "contact": "연락처",
         "contact_p": "연락처 페이지",
+        "test_p": "테스트",
+        "recharts_p": "차트",
     }
   }
 };
