@@ -13,6 +13,7 @@ const resources = {
         "contact_p": "Contact page",
         "test_p": "Test",
         "recharts_p": "Recharts",
+        "graphics_p": "Graphics",
     }
   },
   kr: {
@@ -23,6 +24,7 @@ const resources = {
         "contact_p": "연락처 페이지",
         "test_p": "테스트",
         "recharts_p": "차트",
+        "graphics_p": "그래픽",
     }
   }
 };

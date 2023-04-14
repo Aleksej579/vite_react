@@ -6,6 +6,7 @@ import Chord from '../components/Chord'
 function pageRecharts() {
   return (
     <div>
+      <h1>Chart</h1>
       <Recharts />
       <hr />
       <Chord />

@@ -10,6 +10,8 @@ const menu = [
     {name: 'Tiny', link: 'https://www.tiny.cloud/solutions/wysiwyg-react-rich-text-editor', icon: 'https://avatars.githubusercontent.com/u/119815?s=200&v=4'},
     {name: 'Cypress', link: 'https://www.cypress.io', icon: 'https://www.cypress.io/images/layouts/navbar-brand.svg'},
     {name: 'Recharts', link: 'https://recharts.org', icon: ''},
+    {name: 'D3', link: 'https://d3js.org/', icon: 'https://camo.githubusercontent.com/586ccf0aad9684edc821658cee04146cf36d1f1d5ec904bbefd72728909ccb2e/68747470733a2f2f64336a732e6f72672f6c6f676f2e737667'},
+    {name: 'Pixi-react', link: 'https://pixijs.io/pixi-react', icon: 'https://pixijs.io/pixi-react/img/pixi-react-rainbow.png'},
 ];
 
 export default menu;

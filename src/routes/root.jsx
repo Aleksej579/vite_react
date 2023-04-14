@@ -6,8 +6,10 @@ import Switch_component from "../components/Switch_component"
 export default function Root() {
   const { t, i18n } = useTranslation();
   return (
-    <section className="flex h-screen mb-0">
-      <nav className="w-1/6 flex flex-col items-center border-r-4 bg-slate-800 dark:bg-violet-950 text-violet-200 dark:text-violet-400">
+    <section className="flex h-screen mb-0  flex-col md:flex-row">
+      <nav className="
+        md:w-1/6 w-full flex flex-col items-center border-r-4 
+        bg-slate-800 dark:bg-violet-950 text-violet-200 dark:text-violet-400">
         <motion.figure className='mb-[30px]' whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
           <img 
             className="rounded mx-auto h-[100px]"  
@@ -17,18 +19,21 @@ export default function Root() {
           <figcaption className="text-center italic">Iron Man</figcaption>
         </motion.figure>
 
-        <ul className="w-full text-center">
-          <li className="hover:bg-fuchsia-900">
+        <ul className="w-full text-center flex md:flex-col justify-around">
+          <li className="hover:bg-fuchsia-900 px-5 rounded-md">
             <Link className="block" to={`/about`}>{t('about')}</Link>
           </li>
-          <li className="hover:bg-fuchsia-900">
+          <li className="hover:bg-fuchsia-900 px-5 rounded-md">
             <Link className="block" to={`/contact`}>{t('contact')}</Link>
           </li>
-          <li className="hover:bg-fuchsia-900">
+          <li className="hover:bg-fuchsia-900 px-5 rounded-md">
             <Link className="block" to={`/test`}>{t('test_p')}</Link>
           </li>
-          <li className="hover:bg-fuchsia-900">
+          <li className="hover:bg-fuchsia-900 px-5 rounded-md">
             <Link className="block" to={`/recharts`}>{t('recharts_p')}</Link>
+          </li>
+          <li className="hover:bg-fuchsia-900 px-5 rounded-md">
+            <Link className="block" to={`/graphics`}>{t('graphics_p')}</Link>
           </li>
         </ul>
 

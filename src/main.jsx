@@ -14,6 +14,7 @@ import PageAbout from './routes/pageAbout'
 import PageContact from './routes/pageContact'
 import PageTest from './routes/pageTest'
 import PageRecharts from './routes/pageRecharts'
+import PageGraphics from './routes/pageGraphics'
 import ErrorPage from "./routes/error-page"
 
 import {
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
       {
         path: "/recharts",
         element: <PageRecharts />,
+      },
+      {
+        path: "/graphics",
+        element: <PageGraphics />,
       },
     ],
   }
